@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="accent">#0F88D8</color>
+    <color name="primary">#1976D2</color>
+    <color name="primary_dark">#0D47A1</color>
+
+    <color name="toolbar_background">#fffdfdfd</color>
+
+    <color name="date_custom_item_unselected_indicator">#ff5c5c5c</color>
+    <color name="date_custom_item_selected_indicator">#ffff7709</color>
+
+    <color name="date_item_unselected_indicator">#292929</color>
+    <color name="date_item_selected_indicator">#ffff353b</color>
+
+    <color name="date_item_background">#ff5c5c5c</color>
+    <color name="date_item_month_name">#fffcfcfc</color>
+    <color name="date_item_day_name">#fffdfdfd</color>
+
+
+    <color name="date_custom_item_background">#ff3b3b3b</color>
+    <color name="date_custom_item_month_name">#fffcfcfc</color>
+    <color name="date_custom_item_day_name">#fffcfcfc</color>
+    <color name="date_custom_item_day">#fffcfcfc</color>
+
+</resources>

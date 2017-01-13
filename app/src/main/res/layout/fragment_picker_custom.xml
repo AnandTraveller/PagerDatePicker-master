@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:datepicker="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/rrr"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="#ff343434">
+
+        <pl.rspective.pagerdatepicker.view.DateRecyclerView
+            android:id="@+id/date_list"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/toolbar"
+            android:layout_centerInParent="true"
+            android:background="#292929" />
+
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:background="#b4292929"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="#b4292929"></LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <!--<pl.rspective.pagerdatepicker.view.DateRecyclerView-->
+    <!--android:id="@+id/date_list"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:background="#ff343434"-->
+    <!--datepicker:date_start="02-12-2000"-->
+    <!--datepicker:date_end="01-10-2020"-->
+    <!--datepicker:default_day_selection="10-06-2015"/>-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rrr" />
+
+</RelativeLayout>
